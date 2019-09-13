@@ -323,7 +323,16 @@ footer {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column-reverse;
-    align-items: flex-start;
-    justify-items: stretch;
+    align-items: center;
+    justify-content: stretch;
+    width: 210%;
+  }
+  .walk .walk-text {
+    margin-left: -60%;
+  }
+  .walk-img {
+    padding-right: 200px;
+    max-width: 620px;
+    max-height: 100%;
   }
 }

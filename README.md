@@ -90,7 +90,7 @@ Your finished project must include all of the following requirements:
 
 ### Import LESS Files
 
-* [ ] Navigate to your `index.less` file. Notice the file is blank. You have been asked to use a certain import order. That order is as follows:
+* [x] Navigate to your `index.less` file. Notice the file is blank. You have been asked to use a certain import order. That order is as follows:
 
 ```markdown
 1.variables.less
@@ -126,9 +126,9 @@ _You will know everything is working properly when you see the styles enabled fo
 
 ### Mobile Design
 
-* [ ] Create a `@phone` variable that contains a `max-width: 500px` media query string. Use the `@phone` variable for all your nested mobile styling.
+* [x] Create a `@phone` variable that contains a `max-width: 500px` media query string. Use the `@phone` variable for all your nested mobile styling.
 
-* [ ] [Review the provided home mobile design file](design-files/home-mobile.png). Match your mobile styling the best you can using the design file.
+* [x] [Review the provided home mobile design file](design-files/home-mobile.png). Match your mobile styling the best you can using the design file.
 
 * [ ] Push your changes and create a pull request if you haven't already.
 

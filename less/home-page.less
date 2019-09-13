@@ -83,7 +83,7 @@
 
 // mobile
 
-@media (max-width: 500px) {
+@media @phone {
   body {
     width: 100%;
   }
@@ -134,13 +134,29 @@
       display: flex;
       flex-wrap: wrap;
       flex-direction: column-reverse;
-      align-items: flex-start;
-      justify-items: stretch;
+      align-items: center;
+      justify-content: stretch;
+      width: 210%;
     }
-   
-  .walk .walk-text {
-    
-  }
+   .walk .walk-text{
+    margin-left: -60%;
+    width: 100%;
+   }
+   .container{
+
+  
+   .walk-img {
+     margin: 0;
+     padding-right: 200px;
+     max-width: 620px;
+     max-height: 400px;
+   }
+
+   button {
+     width: 200%;
+   }
+  
+  
      
 
   }
