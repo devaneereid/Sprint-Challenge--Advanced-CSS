@@ -213,6 +213,9 @@ footer {
 .home .intro p {
   padding: 0 15px;
 }
+.home .intro img {
+  border-radius: 5px;
+}
 .home .space-images {
   display: flex;
   flex-wrap: wrap;
@@ -293,6 +296,7 @@ footer {
     height: 120px;
     align-self: center;
     margin-left: 2%;
+    border-radius: 5px;
   }
   .intro h2 {
     font-size: 3rem;
@@ -306,7 +310,7 @@ footer {
     flex-direction: column;
   }
   .space-images img.blast {
-    width: 90%;
+    width: 95%;
     height: 90%;
     align-self: center;
   }
@@ -323,16 +327,29 @@ footer {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column-reverse;
-    align-items: center;
-    justify-content: stretch;
-    width: 210%;
+    align-items: flex-start;
+    justify-items: stretch;
+    justify-content: space-evenly;
+    margin-bottom: -5%;
   }
-  .walk .walk-text {
-    margin-left: -60%;
+  .walk .walk-text h3 {
+    width: 480px;
+    margin-left: -20%;
+    margin-top: 10%;
+  }
+  .walk .walk-text p {
+    width: 480px;
+    margin-left: -20%;
+    padding-right: 5%;
   }
   .walk-img {
-    padding-right: 200px;
-    max-width: 620px;
-    max-height: 100%;
+    width: 470px !important;
+    margin-left: -12% !important;
+    margin-top: -8%;
+  }
+  .btn {
+    width: 470px !important;
+    margin-left: -22% !important;
+    height: 60px !important;
   }
 }
