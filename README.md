@@ -50,6 +50,7 @@ A rem refers to the property's intial value. So if a user changes their own font
 It's a really easy way to increase your productivity and also decrease the amount of code that you are writing. So using preprocessing is so helpful for the person coding the site. 
 
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+  
 
 My favorite concept with preprocessing is being able to see/track your code and it will catch if your missing a syntax or something like that. 
 I tend to struggle the most with the parametric mixins. I can do them but they don't come easily to me yet. 
